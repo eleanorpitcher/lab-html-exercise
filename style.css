@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+nav {
+    width: 600px;
+  }
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+#section-one h1 {
+    font-size: 6.5em;
+    margin: 10px 0;
+    width: 50%
+}
+ 
+#section-one {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+#section-one article {
+    text-align: center;
+    font-size: 1.7em;
+    width: 40%;
+}
+
+#section-one div {
+    width: 40%;
+}
+
+#link-btn {
+    font-size: 1em;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+.btn-red {
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+ }
+
+.btn-white{
+    background-color: white;
+
+} 
+
+#section-two {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+ }
+
+#section-two h2 {
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    font-size: 2.3em;
+    text-align: center;
+    width: 50%;
+ }
+
+ #second-container article {
+    text-align: center;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40%;
+ }
+
+ #section-two img {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+
+ #section-three {
+    width: 90%;
+    flex-direction: column;
+ }
+
+ #section-three div {
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .card-format img {
+    display: flex;
+    width: 10px;
+    align-items: center;
+    justify-content: space-between;
+ }
